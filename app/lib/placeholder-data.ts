@@ -46,6 +46,12 @@ const customers = [
     email: 'balazs@orban.com',
     image_url: '/customers/balazs-orban.png',
   },
+  {
+    id: 'A1D3B1F3-2E2C-4E5E-8C2D-8B5D1B4B7B4A',
+    name: 'Jenny Wilson',
+    email: 'j@w.com',
+    image_url: '/customers/balazs-orban.png',
+  }
 ];
 
 const invoices = [
@@ -127,6 +133,12 @@ const invoices = [
     status: 'paid',
     date: '2022-06-05',
   },
+  {
+    customer_id: customers[6].id,
+    amount: 2000,
+    status: 'paid',
+    date: '2024-06-05',
+  }
 ];
 
 const revenue = [
